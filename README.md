@@ -34,6 +34,28 @@ It detects and compares human faces from images stored in Amazon S3.
 - Attendance systems
 - Security and surveillance
 - Identity verification systems
+  
+## 📂 Project Folder Structure
+
+```text
+aws-facial-recognition-system/
+├── frontend
+│   ├── index.js
+│   ├── App.js
+│   ├── App.css
+├── backend
+│   ├── Employee-authentication.py
+│   └── Employee-registration.py
+├── aws-screenshots/           # AWS Console screenshots
+│   ├── s3/
+│   ├── iam/
+│   ├── lambda/
+│   ├── dynamodb/
+│   ├── api-gateway/
+├── employee-images/           # Sample employee images
+├── architecture/              # Architecture diagram
+├── report/                    # Project report 
+├── result/                    # final recognition system
 
 ## 👩‍💻 Author
 Usha Saini  
